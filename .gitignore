@@ -1,0 +1,25 @@
+# Ignore object files and executables
+*.o
+*.out
+
+# Ignore compiled libraries
+*.a
+*.so
+
+# Ignore build directories
+build/
+bin/
+
+# Ignore generated files
+*.exe
+*.dll
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+partial_md5sum
