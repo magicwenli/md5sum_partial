@@ -1,7 +1,7 @@
 #!/bin/bash
 # set -x
 script_dir=$(dirname "$0")
-my_bin="$script_dir/../partial_md5sum"
+my_bin="$script_dir/../md5sum_partial"
 
 # Function to compare MD5 sum
 compare_md5sum() {

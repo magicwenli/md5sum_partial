@@ -151,7 +151,7 @@ static void *md5_buffer __P ((const char *buffer, size_t len, void *resblock));
 	#define SWAP(n) ((n << 24) | ((n&65280)<<8) | ((n&16711680)>>8) | (n>>24))
 #endif
 
-#define applet_name "partial_md5sum"
+#define applet_name "md5sum_partial"
 #define memory_exhausted "memory exhausted"
 
 

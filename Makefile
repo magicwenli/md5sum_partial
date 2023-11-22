@@ -3,11 +3,11 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 LDFLAGS = -lm
 
-TARGET = partial_md5sum
+TARGET = md5sum_partial
 SRC = md5sum.c
 OBJ = $(SRC:.c=.o)
 
-all: clean $(TARGET) tests
+all: $(TARGET)
 
 $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(TARGET) $(LDFLAGS)
